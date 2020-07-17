@@ -12,7 +12,6 @@ class VideoFrame extends React.Component {
   render() {
     return <div style={{
       position: 'relative',
-      paddingTop: '5%'
     }}>
       <ReactPlayer
         url={this.props.src}

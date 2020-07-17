@@ -31,18 +31,18 @@ export default function RecommendationCard(props) {
     const classes = useStyles();
     return (
         <div>
-            <Card variant="outlined">
+            <Card variant="outlined" style={{margin: "4px"}}>
                 <CardContent>
                     <Grid container
                         direction="row"
                         justify="center"
                         alignItems="center"
                         spacing={1}>
-                        <Grid item xs={12} sm={12}>
+                        <Grid item xs={10} sm={12}>
                             <Avatar className={classes.large} alt={props.name} src={props.avatar} />
                         </Grid>
-                        <Grid item xs={12} sm={12} className={classes.text}>
-                            <Typography variant="h7" component="h3">
+                        <Grid item xs={10} sm={12} className={classes.text}>
+                            <Typography variant="h6" component="h3">
                                 {props.name}
                             </Typography>
                         </Grid>
