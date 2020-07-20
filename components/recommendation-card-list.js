@@ -8,12 +8,12 @@ export default function RecommendationCardList(props) {
             direction="row"
             justify="center"
             alignItems="center">
-            {props.messages.map((value, index) => {
+            {props.items.map((value, index) => {
                 return <RecommendationCard
                     key={index}
-                    name={props.names[index]}
-                    avatar={props.avatars[index]}
-                    message={value} />
+                    name={value.name}
+                    avatar={value.avatar}
+                    message={value.message} />
             })}
         </Grid >
     )
