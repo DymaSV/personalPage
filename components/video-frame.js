@@ -17,7 +17,7 @@ class VideoFrame extends React.Component {
   }
 
   updateWindowDimensions() {
-    this.setState({ height: window.innerHeight - 50 });
+    this.setState({ height: window.innerHeight - 20 });
   }
 
   render() {

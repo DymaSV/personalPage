@@ -8,8 +8,13 @@ export default function Navigator() {
   }
 
   return (
-    <div>
-      <Breadcrumbs aria-label="breadcrumb">
+    <div style={{
+      margin: '10px',
+      fontSize: '20px' 
+    }}>
+      <Breadcrumbs aria-label="breadcrumb" style={{
+      fontSize: '20px' 
+    }}>
         <Link
           color="inherit"
           href="/"

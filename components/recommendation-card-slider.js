@@ -1,6 +1,7 @@
 import React from 'react';
 import RecommendationCard from '../components/recommendation-card';
 import Carousel from "react-material-ui-carousel"
+import Paper from '@material-ui/core/Paper';
 
 export default function RecommendationCardSlider(props) {
     const autoPlay = false;
